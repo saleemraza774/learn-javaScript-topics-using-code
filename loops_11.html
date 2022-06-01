@@ -19,8 +19,35 @@
         // forEach loops
 
         name.forEach(element => {
-            
+            console.log(element);
+            // use document.write for print javaScript in page
+            document.write(element +"<br>" );
+
         });
+        // for  of loop
+console.log("using for of looop in javaScript")
+    for (element of name){
+        console.log(element);
+    }
+
+    // for in loop 
+    // for in loop is used for iterate over   object in javaScript
+    
+    let student={
+        Name: "Saleem Raza",
+        class: "4-B",
+        id: "CSC-20F-151",
+        Univerasity: "SMI University"
+        
+    }
+    for (const key in student) {
+        console.log("the "+ ""+key+" of "+ "student is:   " + ""+ student[key]);
+            
+        }
+    
+            
+        
+
 
 
     </script>
